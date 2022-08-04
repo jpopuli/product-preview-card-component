@@ -3,6 +3,7 @@
 :root {
   /* primary */
   --dark-cyan: hsl(158, 36%, 37%);
+  --dark-cyan-hover: hsl(158, 36%, 20%);
   --cream: hsl(30, 38%, 92%);
   /* neutral */
   --very-dark-blue: hsl(212, 21%, 14%);
@@ -122,6 +123,10 @@ main {
   height: 30px;
   width: 100%;
   margin-top: 10px;
+}
+
+.card-btn:hover {
+  background-color: var(--dark-cyan-hover);
 }
 
 .card-btn-icon {
